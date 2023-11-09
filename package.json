@@ -1,0 +1,19 @@
+{
+  "name": "calculate-storage-hash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "ts-node index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ethereumjs/rlp": "^5.0.1",
+    "@ethereumjs/trie": "^6.0.1",
+    "debug": "^4.3.4",
+    "ethers": "^6.8.1",
+    "ts-node": "^10.9.1"
+  }
+}
